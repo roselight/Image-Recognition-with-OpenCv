@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>216</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CHTP-Kullanıcı Kayıt</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>../heartbeat.png</normalon>
+   </iconset>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_kayit">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ONAYLA</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>../avatar.png</normalon>
+     </iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cikis">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>160</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İPTAL</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>581</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="4" column="0">
+      <widget class="QLabel" name="lbl_hdt_2">
+       <property name="text">
+        <string>Mail Adresi :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lbl_ktel">
+       <property name="text">
+        <string>Telefon :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbl_knick">
+       <property name="text">
+        <string>Kullanıcı Adı:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="le_knick"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lbl_ksifre">
+       <property name="text">
+        <string>Şifre:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="le_kad"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="le_ksifre"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_kad">
+       <property name="text">
+        <string>Ad Soyad</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="le_kmail"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="le_ktel"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
